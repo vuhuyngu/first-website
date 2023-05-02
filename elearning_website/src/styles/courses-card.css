@@ -1,0 +1,32 @@
+.course_item {
+    cursor: pointer;
+}
+
+.course_info h3 a {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.course_info a:hover {
+    color: inherit;
+}
+
+.course_info span {
+    font-size: 0.9rem;
+}
+
+.course_card-bottom .price {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.course_card-bottom span i {
+    font-size: 1.2rem;
+    padding: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 50px;
+}
