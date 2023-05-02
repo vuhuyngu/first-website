@@ -111,7 +111,7 @@ const Home = () => {
 
 {/* Mục thứ tư */ /* ========================dòng thêm ảnh - phụ */}
 
-      <section className="new_gallery">
+      <section>
         <Container>
           <Row>
           <Col lg="12" className="text-center">
