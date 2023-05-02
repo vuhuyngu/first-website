@@ -21,7 +21,8 @@ const Home = () => {
   const [trendingCourses, setTrendingCourses] = useState([]);
   const [bestSalesCourses, setBestSalesCourses] = useState([]);
   const [mobileCourses, setMobileCourses] = useState([]);
-  const [wirelessCourses, setWirelessCourses] = useState([])
+  const [wirelessCourses, setWirelessCourses] = useState([]);
+  const [popularCourses, setPopularCourses] = useState([]);
   
   const year =
     new Date().getFullYear(); /*Tạo mục giới thiệu đầu trang và nút đăng kí ngay */
@@ -39,10 +40,14 @@ const Home = () => {
       const filterdWirelessCourses = courses.filter(item=> 
         item.category == "wireless");
 
+      const filterdPopularCourses = courses.filter(item=> 
+        item.category == "watch");
+
       setTrendingCourses(filterdTrendingCourses);
       setBestSalesCourses(filterdBestSalesCourses);
       setMobileCourses(filterdMobileCourses);
       setWirelessCourses(filterdWirelessCourses);
+      setPopularCourses(filterdPopularCourses);
 
     }, []);
 
@@ -131,11 +136,23 @@ const Home = () => {
         <Container>
           <Row>
           <Col lg="12" className="text-center">
-              <h2 className="section_title">Sắp ra mắt</h2>
+              <h2 className="section_title">Khóa học sắp tới</h2>
             </Col>
 
             <CoursesList data={mobileCourses} />
             <CoursesList data={wirelessCourses} />
+          </Row>
+        </Container>
+      </section>
+
+      <section className="popular_category">
+      <Container>
+          <Row>
+          <Col lg="12" className="text-center">
+              <h2 className="section_title">Dịch vụ dịch thuật - Sắp ra mắt</h2>
+            </Col>
+
+            <CoursesList data={popularCourses} />
           </Row>
         </Container>
       </section>
