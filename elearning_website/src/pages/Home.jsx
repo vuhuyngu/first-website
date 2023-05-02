@@ -109,7 +109,7 @@ const Home = () => {
         </Container>
       </section>
 
-{/* Mục thứ tư */ /* ========================dòng thêm ảnh - phụ */}
+{/* Mục thứ tư */}
 
       <section>
         <Container>
@@ -125,7 +125,7 @@ const Home = () => {
         </Container>
       </section>
 
-{/* Mục thứ tư */}
+{/* Mục thứ năm */}
 
       <section className="new_arrivals">
         <Container>
