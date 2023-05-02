@@ -1,0 +1,46 @@
+.hero_section {                 /*Tạo màu nền đằng sau*/
+  background-color: #e0ee18;
+}
+
+.hero_content h2 {              /*Định dạng dòng chữ giới thiệu chính*/
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.hero_content p {               /*Định dạng các dòng phần giới thiệu (trừ dòng giới thiệu chính*/
+    color: #000000;
+    line-height: 28px;
+}
+
+.hero_section p:nth-child(i) {
+    font-weight: 500;
+}
+
+.sig_btn {                      /*Tạo nút đăng kí ngay phần giới thiệu*/
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+.buy_btn a:hover {
+    color: #fff;
+}
+
+.hero_content {
+    padding-top: 45px;
+}
+
+/* ========================dòng thêm ảnh - phụ */
+.section_title {
+    font-size: 2.3rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
