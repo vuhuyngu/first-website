@@ -23,7 +23,7 @@ const nav_links = [
 
   {
     path: "saved",
-    display: "Mục yêu thích",
+    display: "Đã lưu",
   },
 ];
 
@@ -37,7 +37,6 @@ const Header = () => {
               <img src={logo} alt="logo" />
               <div>
                 <h1>E-P-DUNG</h1>
-                {/* <p>Since 1995</p> */}
               </div>
             </div>
 
