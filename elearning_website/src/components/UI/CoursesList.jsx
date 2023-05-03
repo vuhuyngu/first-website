@@ -4,8 +4,8 @@ import CourseCard from "./CourseCard";
 const CoursesList = ({ data }) => {
   return (
     <>
-        {data?.map((item) => (
-            <CourseCard item={item} />
+        {data?.map((item, index) => (
+            <CourseCard item={item} key={index}/>
         ))}
       
     </>
