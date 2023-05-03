@@ -100,3 +100,16 @@
   /*Tạo hiệu ứng tô đậm khi chọn mục menu*/
   font-weight: 700 !important;
 }
+
+/*Tạo hiệu ứng thanh menu di chuyển theo màn hình*/
+.sticky_header {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  box-shadow: 3px 3px 8px -3px #ddd;
+  background: #fff;
+}
