@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./header.css";
 
 import { motion } from "framer-motion";
@@ -36,7 +36,7 @@ const Header = () => {
   // tạo hiệu ứng thông báo số lượng khi đã thêm khóa học
   const totalQuantity = useSelector(state=> state.saved.totalQuantity)
 
-  // const menuRef = useRef(null);
+  const navigate = useNavigate()
 
   const stickyHeaderFunc = () => {
     window.addEventListener("scroll", () => {
@@ -57,6 +57,11 @@ const Header = () => {
     return () => window.removeEventListener("scroll", stickyHeaderFunc);
   });
   /*==============================================*/
+
+  /*Tạo mục lưu khóa học (như giỏ hàng)*/
+  const navigateToSaved = () => {
+    navigate("/saved");
+  }
 
   return (
     <header className="header" ref={headerRef}>
@@ -93,7 +98,7 @@ const Header = () => {
                 <span className="badge">1</span>
               </span>
 
-              <span className="set_icon">
+              <span className="set_icon" onClick={navigateToSaved}>
                 <i class="ri-shopping-bag-fill"></i>
                 <span className="badge">{totalQuantity}</span>
               </span>
