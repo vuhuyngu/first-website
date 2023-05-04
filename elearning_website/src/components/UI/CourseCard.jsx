@@ -21,7 +21,7 @@ const CourseCard = ({ item }) => {
         id: item.id,
         courseName: item.courseName,
         price: item.price,
-        image: item.imgUrl,
+        imgUrl: item.imgUrl,
       })
     );
 
