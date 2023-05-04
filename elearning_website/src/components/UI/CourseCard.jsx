@@ -38,7 +38,7 @@ const CourseCard = ({ item }) => {
         </div>
         <div className="p-2 course_info">
           <h3 className="course_name">
-            <Link to={`/shop/${item.id}`}>{item.courseName}</Link>
+            <Link to={`/course/${item.id}`}>{item.courseName}</Link>
           </h3>
           <span>{item.category}</span>
         </div>
