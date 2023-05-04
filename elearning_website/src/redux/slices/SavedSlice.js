@@ -13,7 +13,7 @@ const SavedSlice = createSlice({
     addItem: (state, action) => {
       const newItem = action.payload;
       const existingItem = state.savedItems.find(
-        (item) => item.id == newItem.id
+        (item) => item.id === newItem.id
       );
 
       state.totalQuantity++;
@@ -22,7 +22,7 @@ const SavedSlice = createSlice({
         state.savedItems.push({
           id: newItem.id,
           courseName: newItem.courseName,
-          image: newItem.imgUrl,
+          imgUrl: newItem.imgUrl,
           price: newItem.price,
           quantity: 1,
           totalPrice: newItem.price,
@@ -34,14 +34,31 @@ const SavedSlice = createSlice({
       }
 
       state.totalAmount = state.savedItems.reduce(
-        (total, item) => total + Number(item.price) * Number(item.quantity)
+        (total, item) => total + Number(item.price) * Number(item.quantity), 0
       );
 
-    //   console.log(state.totalQuantity);
-    //   console.log(state.savedItems);
-    //   console.log(newItem);
+      //   console.log(state.totalQuantity);
+      //   console.log(state.savedItems);
+      //   console.log(newItem);
+    },
+
+    deleteItem: (state, action) => {
+      const id = action.payload;
+      const existingItem = state.savedItems.find((item) => item.id === id);
+  
+      if (existingItem) {
+        state.savedItems = state.savedItems.filter((item) => item.id !== id);
+        state.totalQuantity = state.totalQuantity - existingItem.quantity;
+      }
+  
+      state.totalAmount = state.savedItems.reduce(
+        (total, item) => total + Number(item.price) * Number(item.quantity), 0
+      );
     },
   },
+
+  // Tạo chức năng xóa khóa học đã lưu
+  
 });
 
 export const savedActions = SavedSlice.actions;
