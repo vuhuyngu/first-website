@@ -15,19 +15,19 @@ const Course = () => {
   // Mục tìm kiếm theo danh sách
   const handleFilter = (e) => {
     const filterValue = e.target.value;
-    if (filterValue == "sofa") {
+    if (filterValue === "sofa") {
       const filterdCourses = courses.filter((item) => item.category == "sofa");
 
       setCoursesData(filterdCourses);
     }
 
-    if (filterValue == "chair") {
+    if (filterValue === "chair") {
       const filterdCourses = courses.filter((item) => item.category == "chair");
 
       setCoursesData(filterdCourses);
     }
 
-    if (filterValue == "mobile") {
+    if (filterValue === "mobile") {
       const filterdCourses = courses.filter(
         (item) => item.category == "mobile"
       );
@@ -35,15 +35,15 @@ const Course = () => {
       setCoursesData(filterdCourses);
     }
 
-    if (filterValue == "watch") {
+    if (filterValue === "watch") {
       const filterdCourses = courses.filter((item) => item.category == "watch");
 
       setCoursesData(filterdCourses);
     }
 
-    if (filterValue == "wireless") {
+    if (filterValue === "wireless") {
       const filterdCourses = courses.filter(
-        (item) => item.category == "wireless"
+        (item) => item.category === "wireless"
       );
 
       setCoursesData(filterdCourses);
@@ -110,7 +110,7 @@ const Course = () => {
       <section className="pt-0">
         <Container>
           <Row>
-            {coursesData.length == 0 ? (
+            {coursesData.length === 0 ? (
               <h1 className="text-center fs-2">Không tìm thấy khóa học!</h1>
             ) : (
               <CoursesList data={coursesData} />
