@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 
 import { Container, Row, Col } from "reactstrap";
 import { useParams } from "react-router-dom";
@@ -52,8 +52,13 @@ const CourseDetails = () => {
       })
     );
 
-    toast.success('Khóa học đã được thêm vào mục Đã lưu')
+    toast.success("Khóa học đã được thêm vào mục Đã lưu");
   };
+
+  // Tạo hiệu ứng chuyển lên phần mô tả khi chọn sản phẩm trong cùng một trang
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [course]);
 
   return (
     <Helmet title={courseName}>
