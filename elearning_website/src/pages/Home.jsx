@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import courses from '../assets/data/products'
+import courses from "../assets/data/products";
 
 import Helmet from "../components/Helmet/Helmet";
 import "../styles/home.css";
@@ -23,38 +23,41 @@ const Home = () => {
   const [mobileCourses, setMobileCourses] = useState([]);
   const [wirelessCourses, setWirelessCourses] = useState([]);
   const [popularCourses, setPopularCourses] = useState([]);
-  
+
   const year =
     new Date().getFullYear(); /*Tạo mục giới thiệu đầu trang và nút đăng kí ngay */
 
-    useEffect(()=>{
-      const filterdTrendingCourses = courses.filter(item=> 
-        item.category == "chair");
+  useEffect(() => {
+    const filterdTrendingCourses = courses.filter(
+      (item) => item.category === "chair"
+    );
 
-      const filterdBestSalesCourses = courses.filter(item=> 
-        item.category == "sofa");
+    const filterdBestSalesCourses = courses.filter(
+      (item) => item.category === "sofa"
+    );
 
-      const filterdMobileCourses = courses.filter(item=> 
-        item.category == "mobile");
+    const filterdMobileCourses = courses.filter(
+      (item) => item.category === "mobile"
+    );
 
-      const filterdWirelessCourses = courses.filter(item=> 
-        item.category == "wireless");
+    const filterdWirelessCourses = courses.filter(
+      (item) => item.category === "wireless"
+    );
 
-      const filterdPopularCourses = courses.filter(item=> 
-        item.category == "watch");
+    const filterdPopularCourses = courses.filter(
+      (item) => item.category === "watch"
+    );
 
-      setTrendingCourses(filterdTrendingCourses);
-      setBestSalesCourses(filterdBestSalesCourses);
-      setMobileCourses(filterdMobileCourses);
-      setWirelessCourses(filterdWirelessCourses);
-      setPopularCourses(filterdPopularCourses);
-
-    }, []);
+    setTrendingCourses(filterdTrendingCourses);
+    setBestSalesCourses(filterdBestSalesCourses);
+    setMobileCourses(filterdMobileCourses);
+    setWirelessCourses(filterdWirelessCourses);
+    setPopularCourses(filterdPopularCourses);
+  }, []);
 
   return (
     <Helmet title={"Home"}>
-
-{/* Mục thứ nhất */}
+      {/* Mục thứ nhất */}
 
       <section className="hero_section">
         <Container>
@@ -85,7 +88,7 @@ const Home = () => {
         </Container>
       </section>
 
-{/* Mục thứ hai */}
+      {/* Mục thứ hai */}
 
       <Services />
       <section className="trending_products">
@@ -100,11 +103,11 @@ const Home = () => {
         </Container>
       </section>
 
-{/* Mục thứ ba */}
+      {/* Mục thứ ba */}
 
       <section className="best_sale">
         <Container>
-        <Row>
+          <Row>
             <Col lg="12" className="text-center">
               <h2 className="section_title">Khóa học Piano, Organ</h2>
             </Col>
@@ -114,28 +117,27 @@ const Home = () => {
         </Container>
       </section>
 
-{/* Mục thứ tư */}
+      {/* Mục thứ tư */}
 
       <section>
         <Container>
           <Row>
-          <Col lg="12" className="text-center">
+            <Col lg="12" className="text-center">
               <h2 className="section_title">Ảnh tham khảo</h2>
             </Col>
-            <Col lg='12'>
+            <Col lg="12">
               <ImagesGallery />
             </Col>
-
           </Row>
         </Container>
       </section>
 
-{/* Mục thứ năm */}
+      {/* Mục thứ năm */}
 
       <section className="new_arrivals">
         <Container>
           <Row>
-          <Col lg="12" className="text-center">
+            <Col lg="12" className="text-center">
               <h2 className="section_title">Khóa học sắp tới</h2>
             </Col>
 
@@ -146,9 +148,9 @@ const Home = () => {
       </section>
 
       <section className="popular_category">
-      <Container>
+        <Container>
           <Row>
-          <Col lg="12" className="text-center">
+            <Col lg="12" className="text-center">
               <h2 className="section_title">Dịch vụ dịch thuật - Sắp ra mắt</h2>
             </Col>
 
