@@ -74,7 +74,7 @@ const Home = () => {
                 </p>
                 {/* Tạo nút đăng kí ngay để chuyển đến trang Các khóa học */}
                 <motion.button whileTap={{ scale: 1.2 }} className="sig_btn">
-                  <Link to="/course">ĐĂNG KÍ NGAY</Link>
+                  <Link to="/signup">ĐĂNG KÍ NGAY</Link>
                 </motion.button>
               </div>
             </Col>
