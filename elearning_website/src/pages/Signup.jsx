@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Helmet from "../components/Helmet/Helmet";
 import { Container, Row, Col, Form, FormGroup } from "reactstrap";
 import { Link } from "react-router-dom";
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { auth } from "../firebase.config";
 
 import "../styles/login.css";
 
@@ -10,6 +12,23 @@ const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [file, setFile] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  const signup = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    try {
+      const userCredential = await createUserWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+
+      const user = userCredential.user;
+      console.log(user);
+    } catch (error) {}
+  };
 
   return (
     <Helmet title="Đăng kí">
@@ -19,7 +38,7 @@ const Signup = () => {
             <Col lg="6" className="m-auto text-center">
               <h3 className="fw-bold mb-3">Đăng kí</h3>
 
-              <Form className="auth_form">
+              <Form className="auth_form" onSubmit={signup}>
                 <FormGroup className="form_group">
                   <input
                     type="text"
