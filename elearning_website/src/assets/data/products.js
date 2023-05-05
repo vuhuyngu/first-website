@@ -1,37 +1,38 @@
-import productImg01 from "../images/double-sofa-01.png";
-import productImg02 from "../images/double-sofa-02.png";
-import productImg03 from "../images/double-sofa-03.png";
+import productImg01 from "../images/TA-tieuhoc-1.png";
+import productImg02 from "../images/TA-tieuhoc-2.png";
+import productImg03 from "../images/TA-tieuhoc-3.png";
+import productImg04 from "../images/TA-tieuhoc-4.png";
 
-import productImg04 from "../images/single-sofa-01.jpg";
-import productImg05 from "../images/single-sofa-02.jpg";
-import productImg06 from "../images/single-sofa-03.jpg";
-import productImg007 from "../images/single-sofa-04.png";
+import productImg05 from "../images/TA-tieuhoc-5.png";
+import productImg06 from "../images/TA-tieuhoc-6.png";
+import productImg07 from "../images/TA-tieuhoc-7.png";
+import productImg008 from "../images/TA-tieuhoc-8.png";
 
-import productImg07 from "../images/arm-chair-01.jpg";
-import productImg08 from "../images/arm-chair-02.jpg";
-import productImg09 from "../images/arm-chair-03.jpg";
-import productImg10 from "../images/arm-chair-01.jpg";
+import productImg007 from "../images/Dan-1.jpg";
+import productImg08 from "../images/Dan-2.jpg";
+import productImg09 from "../images/Dan-3.jpg";
+import productImg10 from "../images/Dan-4.jpg";
 
-import productImg13 from "../images/phone-01.jpg";
-import productImg14 from "../images/phone-02.jpg";
-import productImg15 from "../images/phone-03.png";
-import productImg16 from "../images/phone-04.jpg";
-import productImg17 from "../images/phone-05.jpg";
-import productImg18 from "../images/phone-06.jpg";
+import productImg13 from "../images/Dan-5.jpg";
+import productImg14 from "../images/Dan-6.jpg";
+import productImg15 from "../images/Dan-7.jpg";
+import productImg16 from "../images/Dan-8.jpg";
+import productImg17 from "../images/Dan-9.jpg";
+import productImg18 from "../images/Dan-10.jpg";
+import productImg23 from "../images/Dan-11.jpg";
+import productImg25 from "../images/Dan-12.jpg";
 
-import productImg19 from "../images/watch-01.jpg";
-import productImg20 from "../images/watch-02.jpg";
-import productImg21 from "../images/watch-03.jpg";
-import productImg22 from "../images/watch-04.jpg";
+import productImg19 from "../images/phiendich-1.jpg";
+import productImg20 from "../images/phiendich-2.jpg";
+import productImg21 from "../images/phiendich-3.jpg";
+import productImg22 from "../images/phiendich-4.jpg";
 
-import productImg23 from "../images/wireless-01.png";
 
-import productImg25 from "../images/wireless-03.png";
 
 const courses = [
   {
     id: "01",
-    courseName: "Stone and Beam Westview ",
+    courseName: "Tiếng Anh lớp 6 - Mai Lan Hương ",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
@@ -50,7 +51,7 @@ const courses = [
 
   {
     id: "02",
-    courseName: "Rivet Bigelow Modern ",
+    courseName: "Tiếng Anh lớp 7 - Mai Lan Hương ",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
@@ -73,7 +74,7 @@ const courses = [
 
   {
     id: "03",
-    courseName: "Amazon Brand Modern Sofa",
+    courseName: "Tiếng Anh lớp 8 - Mai Lan Hương",
     imgUrl: productImg03,
     category: "sofa",
     price: 173,
@@ -96,8 +97,8 @@ const courses = [
   
   {
     id: "26",
-    courseName: "Rivet Bigelow Modern ",
-    imgUrl: productImg02,
+    courseName: "Tiếng Anh - Let's go - Tiểu học",
+    imgUrl: productImg008,
     category: "sofa",
     price: 253,
     shortDesc:
@@ -119,7 +120,7 @@ const courses = [
 
   {
     id: "04",
-    courseName: "Fllufy Sheep Sofa",
+    courseName: "Tiếng Anh lớp 9 - Mai Lan Hương",
     imgUrl: productImg04,
     category: "sofa",
     price: 163,
@@ -142,7 +143,7 @@ const courses = [
 
   {
     id: "05",
-    courseName: "Faux Velvet Sofa",
+    courseName: "Tiếng Anh lớp 10 - Mai Lan Hương",
     imgUrl: productImg05,
     category: "sofa",
     price: 163,
@@ -165,7 +166,7 @@ const courses = [
 
   {
     id: "06",
-    courseName: "Fllufy Sheep Sofa",
+    courseName: "Tiếng Anh lớp 11 - Mai Lan Hương",
     imgUrl: productImg06,
     category: "sofa",
     price: 163,
@@ -188,8 +189,8 @@ const courses = [
 
   {
     id: "07",
-    courseName: "Sakarias Armchair",
-    imgUrl: productImg07,
+    courseName: "Czerny - Luyện tập cùng Piano",
+    imgUrl: productImg007,
     category: "chair",
     price: 99,
     shortDesc:
@@ -211,8 +212,8 @@ const courses = [
 
   {
     id: "27",
-    courseName: "Modern Arm Sofa",
-    imgUrl: productImg007,
+    courseName: "Tiếng Anh lớp 12 - Mai Lan Hương",
+    imgUrl: productImg07,
     category: "sofa",
     price: 173,
     shortDesc:
@@ -234,7 +235,7 @@ const courses = [
 
   {
     id: "08",
-    courseName: "Baltsar Chair",
+    courseName: "Piano Classic 3",
     imgUrl: productImg08,
     category: "chair",
     price: 89,
@@ -257,7 +258,7 @@ const courses = [
 
   {
     id: "09",
-    courseName: "Helmar Chair",
+    courseName: "Piano Classic 1A",
     imgUrl: productImg09,
     category: "chair",
     price: 112,
@@ -280,7 +281,7 @@ const courses = [
 
   {
     id: "10",
-    courseName: "Apple iPhone 12 Pro",
+    courseName: "Essor - Từ cổ điển đến hiện đại",
     imgUrl: productImg13,
     category: "mobile",
     price: 799,
@@ -302,7 +303,7 @@ const courses = [
   },
   {
     id: "25",
-    courseName: "Sakarias Armchair",
+    courseName: "Organ cơ bản 2",
     imgUrl: productImg10,
     category: "chair",
     price: 99,
@@ -324,7 +325,7 @@ const courses = [
   },
   {
     id: "11",
-    courseName: "Apple iPhone 12 Max",
+    courseName: "Piano - bài học mở đầu",
     imgUrl: productImg14,
     category: "mobile",
     price: 799,
@@ -347,7 +348,7 @@ const courses = [
 
   {
     id: "12",
-    courseName: "Realme 8",
+    courseName: "Organ - Luyện tập cuốn 1",
     imgUrl: productImg15,
     category: "mobile",
     price: 599,
@@ -370,7 +371,7 @@ const courses = [
 
   {
     id: "13",
-    courseName: "One Plus Nord",
+    courseName: "Organ - Luyện tập cuốn 2",
     imgUrl: productImg16,
     category: "mobile",
     price: 799,
@@ -393,7 +394,7 @@ const courses = [
 
   {
     id: "14",
-    courseName: "Apple iPhone 13 Pro",
+    courseName: "Những giai điệu du dương - Van de Velde",
     imgUrl: productImg17,
     category: "mobile",
     price: 899,
@@ -416,7 +417,7 @@ const courses = [
 
   {
     id: "15",
-    courseName: "Samsung Galaxy S22",
+    courseName: "Organ - Luyện tập cuốn 3",
     imgUrl: productImg18,
     category: "mobile",
     price: 699,
@@ -439,7 +440,7 @@ const courses = [
 
   {
     id: "16",
-    courseName: "Rolex Watch",
+    courseName: "Dịch sách tiếng Anh - tạp chí",
     imgUrl: productImg19,
     category: "watch",
     price: 299,
@@ -462,7 +463,7 @@ const courses = [
 
   {
     id: "17",
-    courseName: "Timex Easy Reader Watch",
+    courseName: "Dịch sách tiếng Pháp - từ điển",
     imgUrl: productImg20,
     category: "watch",
     price: 299,
@@ -485,7 +486,7 @@ const courses = [
 
   {
     id: "18",
-    courseName: "Rolex Watch",
+    courseName: "Dịch sách tiếng Pháp - Văn học",
     imgUrl: productImg21,
     category: "watch",
     price: 299,
@@ -508,7 +509,7 @@ const courses = [
 
   {
     id: "19",
-    courseName: "Apple Watch",
+    courseName: "Dịch sách tiếng Anh - Từ điển",
     imgUrl: productImg22,
     category: "watch",
     price: 399,
@@ -531,7 +532,7 @@ const courses = [
 
   {
     id: "20",
-    courseName: "Beat Studio Wireless",
+    courseName: "Tuyển tập Piano - Bài hát chọn lọc",
     imgUrl: productImg23,
     category: "wireless",
     price: 199,
@@ -554,7 +555,7 @@ const courses = [
 
   {
     id: "22",
-    courseName: "Beat EP Headphones",
+    courseName: "Luyện ngón cùng Piano Classic",
     imgUrl: productImg25,
     category: "wireless",
     price: 199,
