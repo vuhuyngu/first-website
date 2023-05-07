@@ -37,16 +37,39 @@ const Signup = () => {
 
       const user = userCredential.user;
 
-      const storageRef = ref(storage, `/images/${Date.now() + username}`);
+      const storageRef = ref(storage, `/images/${Date.now()}-${username}`);
+
+      // Chỗ này tương đương với việc em nhờ 1 bạn A đi chợ
       const uploadTask = uploadBytesResumable(storageRef, file);
 
+      // Chỗ này em quy ước là: Khi nào bạn A mua đồ về
       uploadTask.on(
+        'state_changed',
+  (snapshot) => {
+    // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
+    const progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+    console.log('Upload is ' + progress + '% done');
+    switch (snapshot.state) {
+      case 'paused':
+        console.log('Upload is paused');
+        break;
+      case 'running':
+        console.log('Upload is running');
+        break;
+    }
+  }, 
         (error) => {
           toast.error(error.message);
         },
         () => {
+          console.log('Getting download URL ...');
+          // Thì em sẽ rửa đồ, chuẩn bị cắt gọt để nấu ăn
+
           getDownloadURL(uploadTask.snapshot.ref).then(async (downloadURL) => {
-            console.log(downloadURL)
+            console.log(downloadURL);
+
+            // downloadURL là đồ đi chợ về
+            // 2 hàm dưới là rửa và cắt gọt => sau đó mới tới nấu ăn
 
             // update user profile
             await updateProfile(user, {
@@ -61,14 +84,21 @@ const Signup = () => {
               email,
               photoURL: downloadURL,
             });
+
+            setLoading(false);
+            toast.success("Account created");
+            navigate("/login");
+          }).catch(err => {
+            console.log(err);
+            setLoading(false);
+            navigate("/login");
           });
         }
       );
 
-      setLoading(false);
-      toast.success("Account created");
-      navigate("/login");
+      
     } catch (error) {
+      console.log(error);
       setLoading(false);
       toast.error("Đã xảy ra sự cố");
     }
