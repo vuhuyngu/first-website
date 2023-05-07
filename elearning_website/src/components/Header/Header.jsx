@@ -10,6 +10,7 @@ import userIcon from "../../assets/images/user-icon.png";
 
 import { Container, Row } from "reactstrap";
 import { useSelector } from "react-redux";
+import useAuth from "../../custom-hooks/useAuth";
 
 // Đặt tên các mục trong menu chính ở giữa
 const nav_links = [
@@ -34,9 +35,10 @@ const Header = () => {
   const headerRef = useRef(null);
 
   // tạo hiệu ứng thông báo số lượng khi đã thêm khóa học
-  const totalQuantity = useSelector(state=> state.saved.totalQuantity)
+  const totalQuantity = useSelector((state) => state.saved.totalQuantity);
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+  const { currentUser } = useAuth();
 
   const stickyHeaderFunc = () => {
     window.addEventListener("scroll", () => {
@@ -61,7 +63,7 @@ const Header = () => {
   /*Tạo mục lưu khóa học (như giỏ hàng)*/
   const navigateToSaved = () => {
     navigate("/saved");
-  }
+  };
 
   return (
     <header className="header" ref={headerRef}>
@@ -107,10 +109,11 @@ const Header = () => {
                 <motion.img
                   whileTap={{ scale: 1.8 }}
                   src={
-                    userIcon
+                    currentUser ? currentUser.photoURL : userIcon
                   } /*tạo hiệu ứng to nhỏ khi ấn vào nút tài khoản, sử dụng motion */
                   alt=""
                 />
+                
               </span>
             </div>
 
