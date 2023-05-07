@@ -189,8 +189,8 @@ const courses = [
 
   {
     id: "07",
-    courseName: "Czerny - Luyện tập cùng Piano",
-    imgUrl: productImg007,
+    courseName: "Organ - Luyện tập cuốn 1",
+    imgUrl: productImg15,
     category: "chair",
     price: 99,
     shortDesc:
@@ -235,8 +235,8 @@ const courses = [
 
   {
     id: "08",
-    courseName: "Piano Classic 3",
-    imgUrl: productImg08,
+    courseName: "Organ - Luyện tập cuốn 2",
+    imgUrl: productImg16,
     category: "chair",
     price: 89,
     shortDesc:
@@ -258,8 +258,8 @@ const courses = [
 
   {
     id: "09",
-    courseName: "Piano Classic 1A",
-    imgUrl: productImg09,
+    courseName: "Organ - Luyện tập cuốn 3",
+    imgUrl: productImg18,
     category: "chair",
     price: 112,
     shortDesc:
@@ -348,8 +348,8 @@ const courses = [
 
   {
     id: "12",
-    courseName: "Organ - Luyện tập cuốn 1",
-    imgUrl: productImg15,
+    courseName: "Czerny - Luyện tập cùng Piano",
+    imgUrl: productImg007,
     category: "mobile",
     price: 599,
     shortDesc:
@@ -371,8 +371,8 @@ const courses = [
 
   {
     id: "13",
-    courseName: "Organ - Luyện tập cuốn 2",
-    imgUrl: productImg16,
+    courseName: "Piano Classic 3",
+    imgUrl: productImg08,
     category: "mobile",
     price: 799,
     shortDesc:
@@ -417,8 +417,8 @@ const courses = [
 
   {
     id: "15",
-    courseName: "Organ - Luyện tập cuốn 3",
-    imgUrl: productImg18,
+    courseName: "Piano Classic 1A",
+    imgUrl: productImg09,
     category: "mobile",
     price: 699,
     shortDesc:
