@@ -95,7 +95,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h2 className="section_title">Khóa học Piano, Organ</h2>
+              <h2 className="section_title">Khóa học Organ</h2>
             </Col>
 
             <CoursesList data={trendingCourses} />
@@ -138,7 +138,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h2 className="section_title">Khóa học sắp tới</h2>
+              <h2 className="section_title">Khóa học Piano</h2>
             </Col>
 
             <CoursesList data={mobileCourses} />
