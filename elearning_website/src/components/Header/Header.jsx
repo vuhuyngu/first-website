@@ -11,6 +11,7 @@ import userIcon from "../../assets/images/user-icon.png";
 import { Container, Row } from "reactstrap";
 import { useSelector } from "react-redux";
 import useAuth from "../../custom-hooks/useAuth";
+import { Link } from "react-router-dom";
 
 // Đặt tên các mục trong menu chính ở giữa
 const nav_links = [
@@ -36,6 +37,7 @@ const Header = () => {
 
   // tạo hiệu ứng thông báo số lượng khi đã thêm khóa học
   const totalQuantity = useSelector((state) => state.saved.totalQuantity);
+  const profileActionRef = useRef(null);
 
   const navigate = useNavigate();
   const { currentUser } = useAuth();
@@ -64,6 +66,9 @@ const Header = () => {
   const navigateToSaved = () => {
     navigate("/saved");
   };
+
+  const toggleProfileActions = () =>
+    profileActionRef.current.classList.toggle("show_profileActions");
 
   return (
     <header className="header" ref={headerRef}>
@@ -96,31 +101,46 @@ const Header = () => {
 
             <div className="nav_icons">
               <span className="sav_icon">
-                <i class="ri-heart-fill"></i>
+                <i className="ri-heart-fill"></i>
                 <span className="badge">1</span>
               </span>
 
               <span className="set_icon" onClick={navigateToSaved}>
-                <i class="ri-shopping-bag-fill"></i>
+                <i className="ri-shopping-bag-fill"></i>
                 <span className="badge">{totalQuantity}</span>
               </span>
 
-              <span>
+              <div className="profile">
                 <motion.img
                   whileTap={{ scale: 1.8 }}
                   src={
                     currentUser ? currentUser.photoURL : userIcon
                   } /*tạo hiệu ứng to nhỏ khi ấn vào nút tài khoản, sử dụng motion */
                   alt=""
+                  onClick={toggleProfileActions}
                 />
-                
+
+                <div
+                  className="profile_actions"
+                  ref={profileActionRef}
+                  onClick={toggleProfileActions}
+                >
+                  {currentUser ? (
+                    <span>Đăng xuất</span>
+                  ) : (
+                    <div>
+                      <Link to="/signup">Signup</Link>
+                      <Link to="/login">Login</Link>
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              <div className="mobile_menu">
+              <span>
+                <i className="ri-menu-line"></i>
               </span>
             </div>
-
-            <div className="mobile_menu">
-              <span>
-                <i class="ri-menu-line"></i>
-              </span>
             </div>
           </div>
         </Row>
