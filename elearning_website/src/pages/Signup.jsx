@@ -37,7 +37,7 @@ const Signup = () => {
 
       const user = userCredential.user;
 
-      const storageRef = ref(storage, `images/${Date.now() + username}`);
+      const storageRef = ref(storage, `/images/${Date.now() + username}`);
       const uploadTask = uploadBytesResumable(storageRef, file);
 
       uploadTask.on(
@@ -46,6 +46,8 @@ const Signup = () => {
         },
         () => {
           getDownloadURL(uploadTask.snapshot.ref).then(async (downloadURL) => {
+            console.log(downloadURL)
+
             // update user profile
             await updateProfile(user, {
               displayName: username,
