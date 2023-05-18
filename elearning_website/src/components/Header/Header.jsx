@@ -78,7 +78,9 @@ const Header = () => {
             <div className="logo">
               <img src={logo} alt="logo" />
               <div>
+              <Link to="/home">
                 <h1>E-P-DUNG</h1>
+                </Link>
               </div>
             </div>
 
@@ -111,6 +113,7 @@ const Header = () => {
               </span>
 
               <div className="profile">
+              <Link to="/signup">
                 <motion.img
                   whileTap={{ scale: 1.8 }}
                   src={
@@ -119,6 +122,7 @@ const Header = () => {
                   alt=""
                   onClick={toggleProfileActions}
                 />
+                </Link>
 
                 <div
                   className="profile_actions"
