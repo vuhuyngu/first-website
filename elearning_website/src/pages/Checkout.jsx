@@ -55,18 +55,18 @@ const Checkout = () => {
                   Số lượng khóa học: <span>{totalQty} items</span>
                 </h6>
                 <h6>
-                  Tổng số tiền ban đầu: <span>${totalAmount}</span>
+                  Tổng số tiền ban đầu: <span>{totalAmount}VNĐ</span>
                 </h6>
                 <h6>
                   <span>
                     Shipping: <br />
                     Free Shipping
                   </span>
-                  <span>$0</span>
+                  <span>0VNĐ</span>
                 </h6>
 
                 <h4>
-                  Tổng cộng: <span>${totalAmount}</span>
+                  Tổng cộng: <span>{totalAmount}VNĐ</span>
                 </h4>
 
                 <h5>
