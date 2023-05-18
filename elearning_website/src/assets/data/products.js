@@ -32,18 +32,18 @@ import productImg22 from "../images/phiendich-4.jpg";
 const courses = [
   {
     id: "01",
-    courseName: "Tiếng Anh lớp 6 - Mai Lan Hương ",
+    courseName: "Tiếng Anh lớp 6 - Chương trình phổ thông",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn học sinh nắm vững kiến thức cơ bản và nâng cao tiếng anh lớp 6.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học tiếng anh lớp 6 tập trung dạy kiến thức theo sát chương trình trên trường, luyện thêm các bài tập cơ bản và nâng cao từ các tài liệu bổ sung, làm các đề thi thử. Khóa học còn bổ sung thêm các phần đàm thoại, tập viết văn. Khóa học sẽ giúp học sinh chuẩn bị bài ở nhà để vào lớp tiếp thu tốt hơn, và có thêm các tài liệu tham khảo trong quá trình hướng dẫn và giảng dạy tiếng anh lớp 6 theo chương trình mới.",
     reviews: [
       {
         rating: 4.7,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Chương trình dạy rất kĩ, cơ bản và đa dạng.",
       },
     ],
     avgRating: 4.5,
@@ -51,22 +51,22 @@ const courses = [
 
   {
     id: "02",
-    courseName: "Tiếng Anh lớp 7 - Mai Lan Hương ",
+    courseName: "Tiếng Anh lớp 7 - Chương trình phổ thông",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn học sinh nắm vững kiến thức cơ bản và nâng cao tiếng anh lớp 7.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học tiếng anh lớp 7 tập trung dạy kiến thức theo sát chương trình trên trường, luyện thêm các bài tập cơ bản và nâng cao từ các tài liệu bổ sung, làm các đề thi thử. Khóa học còn bổ sung thêm các phần đàm thoại, tập viết văn. Khóa học sẽ giúp học sinh chuẩn bị bài ở nhà để vào lớp tiếp thu tốt hơn, và có thêm các tài liệu tham khảo trong quá trình hướng dẫn và giảng dạy tiếng anh lớp 7 theo chương trình mới.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Tạm được.",
       },
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Chương trình dạy ngoài lề nâng cao rất bổ ích.",
       },
     ],
     avgRating: 4.7,
@@ -74,22 +74,22 @@ const courses = [
 
   {
     id: "03",
-    courseName: "Tiếng Anh lớp 8 - Mai Lan Hương",
+    courseName: "Tiếng Anh lớp 8 - Chương trình phổ thông",
     imgUrl: productImg03,
     category: "sofa",
     price: 173,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn học sinh nắm vững kiến thức cơ bản và nâng cao tiếng anh lớp 8.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học tiếng anh lớp 8 tập trung dạy kiến thức theo sát chương trình trên trường, luyện thêm các bài tập cơ bản và nâng cao từ các tài liệu bổ sung, làm các đề thi thử. Khóa học còn bổ sung thêm các phần đàm thoại, tập viết văn. Khóa học sẽ giúp học sinh chuẩn bị bài ở nhà để vào lớp tiếp thu tốt hơn, và có thêm các tài liệu tham khảo trong quá trình hướng dẫn và giảng dạy tiếng anh lớp 8 theo chương trình mới.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Khác hơi nhiều một chút với chương trình trên trường.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Con nhỏ học rất tốt.",
       },
     ],
     avgRating: 4.7,
@@ -102,17 +102,17 @@ const courses = [
     category: "sofa",
     price: 253,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn học sinh tiểu học học tốt chương trình tiếng Anh trên trường từ lớp 1 đến lớp 5",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học tiếng anh lớp 6 tập trung dạy kiến thức theo sát chương trình trên trường, luyện thêm phần phát âm, nghe và nói. Khóa học còn giúp các em học sinh thực hành giao tiếp qua nhiều tình huống, giúp các bài giảng sinh động và thực tế hơn.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.7,
@@ -120,22 +120,22 @@ const courses = [
 
   {
     id: "04",
-    courseName: "Tiếng Anh lớp 9 - Mai Lan Hương",
+    courseName: "Tiếng Anh lớp 9 - Chương trình phổ thông",
     imgUrl: productImg04,
     category: "sofa",
     price: 163,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn học sinh nắm vững kiến thức cơ bản và nâng cao tiếng anh lớp 9.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học tiếng anh lớp 9 tập trung dạy kiến thức theo sát chương trình trên trường, luyện thêm các bài tập cơ bản và nâng cao từ các tài liệu bổ sung, làm các đề thi thử. Khóa học còn bổ sung thêm các phần đàm thoại, tập viết văn. Khóa học sẽ giúp học sinh chuẩn bị bài ở nhà để vào lớp tiếp thu tốt hơn, và có thêm các tài liệu tham khảo trong quá trình hướng dẫn và giảng dạy tiếng anh lớp 9 theo chương trình mới.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Tạm được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.7,
@@ -143,22 +143,22 @@ const courses = [
 
   {
     id: "05",
-    courseName: "Tiếng Anh lớp 10 - Mai Lan Hương",
+    courseName: "Tiếng Anh lớp 10 - Chương trình phổ thông",
     imgUrl: productImg05,
     category: "sofa",
     price: 163,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn học sinh nắm vững kiến thức cơ bản và nâng cao tiếng anh lớp 10.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học tiếng anh lớp 10 tập trung dạy kiến thức theo sát chương trình trên trường, luyện thêm các bài tập cơ bản và nâng cao từ các tài liệu bổ sung, làm các đề thi thử. Khóa học còn bổ sung thêm các phần đàm thoại, tập viết văn. Khóa học sẽ giúp học sinh chuẩn bị bài ở nhà để vào lớp tiếp thu tốt hơn, và có thêm các tài liệu tham khảo trong quá trình hướng dẫn và giảng dạy tiếng anh lớp 10 theo chương trình mới.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Tạm được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.7,
@@ -166,22 +166,22 @@ const courses = [
 
   {
     id: "06",
-    courseName: "Tiếng Anh lớp 11 - Mai Lan Hương",
+    courseName: "Tiếng Anh lớp 11 - Chương trình phổ thông",
     imgUrl: productImg06,
     category: "sofa",
     price: 163,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn học sinh nắm vững kiến thức cơ bản và nâng cao tiếng anh lớp 11.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học tiếng anh lớp 11 tập trung dạy kiến thức theo sát chương trình trên trường, luyện thêm các bài tập cơ bản và nâng cao từ các tài liệu bổ sung, làm các đề thi thử. Khóa học còn bổ sung thêm các phần đàm thoại, tập viết văn. Khóa học sẽ giúp học sinh chuẩn bị bài ở nhà để vào lớp tiếp thu tốt hơn, và có thêm các tài liệu tham khảo trong quá trình hướng dẫn và giảng dạy tiếng anh lớp 11 theo chương trình mới.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Tạm được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Không sợ mất gốc.",
       },
     ],
     avgRating: 4.7,
@@ -194,17 +194,17 @@ const courses = [
     category: "chair",
     price: 99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn sử dụng và học kĩ thuật cơ bản bằng organ.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học giúp học viên luyện các kĩ thuật cơ bản về nốt, nhịp, sắc thái và hợp âm. Các bài tập Organ cũng giúp học viên hiểu biết thêm các tác giả, trích đoạn từ các tác phẩm nổi tiếng, cải thiện khả năng cảm thụ âm nhạc và tốc độ, tiết tấu theo từng chủ đề. Khóa học cũng giúp học viên lựa chọn các phong cách nhạc hiện đại, thích hợp với nhiều thể loại từ trong nước đến quốc tế.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Hơi khô khan chút xíu. Nhưng không thành vấn đề",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Rất được.",
       },
     ],
     avgRating: 4.7,
@@ -212,22 +212,22 @@ const courses = [
 
   {
     id: "27",
-    courseName: "Tiếng Anh lớp 12 - Mai Lan Hương",
+    courseName: "Tiếng Anh lớp 12 - Chương trình phổ thông",
     imgUrl: productImg07,
     category: "sofa",
     price: 173,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn học sinh nắm vững kiến thức cơ bản và nâng cao tiếng anh lớp 12.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học tiếng anh lớp 12 tập trung dạy kiến thức theo sát chương trình trên trường, luyện thêm các bài tập cơ bản và nâng cao từ các tài liệu bổ sung, làm các đề thi thử. Khóa học còn bổ sung thêm các phần đàm thoại, tập viết văn. Khóa học sẽ giúp học sinh chuẩn bị bài ở nhà để vào lớp tiếp thu tốt hơn, và có thêm các tài liệu tham khảo trong quá trình hướng dẫn và giảng dạy tiếng anh lớp 12 theo chương trình mới.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Tạm được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Con bé nhớ lâu lắm.",
       },
     ],
     avgRating: 4.7,
@@ -240,17 +240,17 @@ const courses = [
     category: "chair",
     price: 89,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn sử dụng và học kĩ thuật cơ bản bằng organ.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học giúp học viên luyện các kĩ thuật cơ bản về nốt, nhịp, sắc thái và hợp âm. Các bài tập Organ cũng giúp học viên hiểu biết thêm các tác giả, trích đoạn từ các tác phẩm nổi tiếng, cải thiện khả năng cảm thụ âm nhạc và tốc độ, tiết tấu theo từng chủ đề. Khóa học cũng giúp học viên lựa chọn các phong cách nhạc hiện đại, thích hợp với nhiều thể loại từ trong nước đến quốc tế.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Cần thêm bài giảng vui hơn chút.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Rất bài bản.",
       },
     ],
     avgRating: 4.7,
@@ -263,17 +263,17 @@ const courses = [
     category: "chair",
     price: 112,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn sử dụng và học kĩ thuật cơ bản bằng organ.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học giúp học viên luyện các kĩ thuật cơ bản về nốt, nhịp, sắc thái và hợp âm. Các bài tập Organ cũng giúp học viên hiểu biết thêm các tác giả, trích đoạn từ các tác phẩm nổi tiếng, cải thiện khả năng cảm thụ âm nhạc và tốc độ, tiết tấu theo từng chủ đề. Khóa học cũng giúp học viên lựa chọn các phong cách nhạc hiện đại, thích hợp với nhiều thể loại từ trong nước đến quốc tế.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.7,
@@ -286,17 +286,17 @@ const courses = [
     category: "mobile",
     price: 799,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn sử dụng và học kĩ thuật cơ bản bằng piano.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học giúp học viên luyện các kĩ thuật cơ bản về nốt, nhịp, sắc thái và hợp âm. Khóa học cũng giúp học viên hiểu biết thêm các tác giả, trích đoạn từ các tác phẩm nổi tiếng, cải thiện khả năng cảm thụ âm nhạc và tốc độ, tiết tấu theo từng chủ đề. Việc học tập những tiểu phẩm cổ điển còn góp phần nắm vững cơ bản, hướng đến phát triển phong cách âm nhạc riêng.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.8,
@@ -308,17 +308,17 @@ const courses = [
     category: "chair",
     price: 99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn sử dụng và học kĩ thuật cơ bản bằng organ.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học giúp học viên luyện các kĩ thuật cơ bản về nốt, nhịp, sắc thái và hợp âm. Các bài tập Organ cũng giúp học viên hiểu biết thêm các tác giả, trích đoạn từ các tác phẩm nổi tiếng, cải thiện khả năng cảm thụ âm nhạc và tốc độ, tiết tấu theo từng chủ đề. Khóa học cũng giúp học viên lựa chọn các phong cách nhạc hiện đại, thích hợp với nhiều thể loại từ trong nước đến quốc tế.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.7,
@@ -330,17 +330,17 @@ const courses = [
     category: "mobile",
     price: 799,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn sử dụng và học kĩ thuật cơ bản bằng piano.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học giúp học viên luyện các kĩ thuật cơ bản về nốt, nhịp, sắc thái và hợp âm. Khóa học cũng giúp học viên hiểu biết thêm các tác giả, trích đoạn từ các tác phẩm nổi tiếng, cải thiện khả năng cảm thụ âm nhạc và tốc độ, tiết tấu theo từng chủ đề. Việc học tập những tiểu phẩm cổ điển còn góp phần nắm vững cơ bản, hướng đến phát triển phong cách âm nhạc riêng.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.8,
@@ -353,17 +353,17 @@ const courses = [
     category: "mobile",
     price: 599,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn sử dụng và học kĩ thuật cơ bản bằng piano.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học giúp học viên luyện các kĩ thuật cơ bản về nốt, nhịp, sắc thái và hợp âm. Khóa học cũng giúp học viên hiểu biết thêm các tác giả, trích đoạn từ các tác phẩm nổi tiếng, cải thiện khả năng cảm thụ âm nhạc và tốc độ, tiết tấu theo từng chủ đề. Việc học tập những tiểu phẩm cổ điển còn góp phần nắm vững cơ bản, hướng đến phát triển phong cách âm nhạc riêng.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.8,
@@ -376,17 +376,17 @@ const courses = [
     category: "mobile",
     price: 799,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn sử dụng và học kĩ thuật cơ bản bằng piano.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học giúp học viên luyện các kĩ thuật cơ bản về nốt, nhịp, sắc thái và hợp âm. Khóa học cũng giúp học viên hiểu biết thêm các tác giả, trích đoạn từ các tác phẩm nổi tiếng, cải thiện khả năng cảm thụ âm nhạc và tốc độ, tiết tấu theo từng chủ đề. Việc học tập những tiểu phẩm cổ điển còn góp phần nắm vững cơ bản, hướng đến phát triển phong cách âm nhạc riêng.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.8,
@@ -399,17 +399,17 @@ const courses = [
     category: "mobile",
     price: 899,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn sử dụng và học kĩ thuật nâng cao bằng piano.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học giúp học viên luyện các kĩ thuật cơ bản về nốt, nhịp, sắc thái và hợp âm. Khóa học cũng giúp học viên hiểu biết thêm các tác giả, trích đoạn từ các tác phẩm nổi tiếng, cải thiện khả năng cảm thụ âm nhạc và tốc độ, tiết tấu theo từng chủ đề. Việc học tập những tiểu phẩm cổ điển còn góp phần nắm vững cơ bản, hướng đến phát triển phong cách âm nhạc riêng.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.8,
@@ -422,17 +422,17 @@ const courses = [
     category: "mobile",
     price: 699,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn sử dụng và học kĩ thuật nâng cao bằng piano.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học giúp học viên luyện các kĩ thuật cơ bản về nốt, nhịp, sắc thái và hợp âm. Khóa học cũng giúp học viên hiểu biết thêm các tác giả, trích đoạn từ các tác phẩm nổi tiếng, cải thiện khả năng cảm thụ âm nhạc và tốc độ, tiết tấu theo từng chủ đề. Việc học tập những tiểu phẩm cổ điển còn góp phần nắm vững cơ bản, hướng đến phát triển phong cách âm nhạc riêng.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.8,
@@ -445,17 +445,17 @@ const courses = [
     category: "watch",
     price: 299,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.8,
@@ -468,17 +468,17 @@ const courses = [
     category: "watch",
     price: 299,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.8,
@@ -491,17 +491,17 @@ const courses = [
     category: "watch",
     price: 299,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.8,
@@ -514,17 +514,17 @@ const courses = [
     category: "watch",
     price: 399,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.8,
@@ -537,17 +537,17 @@ const courses = [
     category: "wireless",
     price: 199,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn sử dụng và học kĩ thuật cơ bản bằng piano.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học giúp học viên luyện các kĩ thuật cơ bản về nốt, nhịp, sắc thái và hợp âm. Khóa học cũng giúp học viên hiểu biết thêm các tác giả, trích đoạn từ các tác phẩm nổi tiếng, cải thiện khả năng cảm thụ âm nhạc và tốc độ, tiết tấu theo từng chủ đề. Việc học tập những tiểu phẩm cổ điển còn góp phần nắm vững cơ bản, hướng đến phát triển phong cách âm nhạc riêng.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.8,
@@ -560,17 +560,17 @@ const courses = [
     category: "wireless",
     price: 199,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Hướng dẫn sử dụng và học kĩ thuật cơ bản bằng piano.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Khóa học giúp học viên luyện các kĩ thuật cơ bản về nốt, nhịp, sắc thái và hợp âm. Khóa học cũng giúp học viên hiểu biết thêm các tác giả, trích đoạn từ các tác phẩm nổi tiếng, cải thiện khả năng cảm thụ âm nhạc và tốc độ, tiết tấu theo từng chủ đề. Việc học tập những tiểu phẩm cổ điển còn góp phần nắm vững cơ bản, hướng đến phát triển phong cách âm nhạc riêng.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Được.",
       },
     ],
     avgRating: 4.8,
