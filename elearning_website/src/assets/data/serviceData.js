@@ -1,26 +1,26 @@
 const serviceData = [
   {
     icon: "ri-truck-line",
-    title: "Free Shipping",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Giáo trình phổ thông",
+    subtitle: "Nắm vững cơ bản và nâng cao.",
     bg: "#fdefe6",
   },
   {
     icon: "ri-refresh-line",
-    title: "Easy Returns",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Đào tạo kĩ lưỡng",
+    subtitle: "Không lo mất gốc kiến thức.",
     bg: "#ceebe9",
   },
   {
     icon: "ri-secure-payment-line",
-    title: "Secure Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Lựa chọn đa dạng",
+    subtitle: "Các khóa học cho mọi lứa tuổi.",
     bg: "#e2f2b2",
   },
   {
     icon: "ri-exchange-dollar-line",
-    title: " Back Guarantee",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Luyện thi tiếng Anh",
+    subtitle: "Đào tạo từ thi cử đến ứng dụng thực tế.",
     bg: "#d6e5fb",
   },
 ];
