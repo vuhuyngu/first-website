@@ -52,7 +52,7 @@ const Saved = () => {
                 <h6 className="d-flex align-items-center justify-content-between">
                   Tổng cộng
 
-                  <span className="fs-4 fw-bold">${totalAmount}</span>
+                  <span className="fs-4 fw-bold">{totalAmount}VNĐ</span>
                 </h6>
                 
               </div>
@@ -89,7 +89,7 @@ const Tr = ({ item }) => {
         <img src={item.imgUrl} alt="" />
       </td>
       <td>{item.courseName}</td>
-      <td>${item.price}</td>
+      <td>{item.price}VNĐ/Tháng</td>
       <td>{item.quantity}px</td>
       <td>
         <motion.i
