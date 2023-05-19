@@ -62,15 +62,15 @@ const Home = () => {
       <section className="hero_section">
         <Container>
           <Row>
-            <Col lg="6" md="6">
+            <Col lg="7" md="7">
               <div className="hero_content">
-                <p className="here_subtitle">Trending product in {year}</p>
+                {/* <p className="here_subtitle">Trending product in {year}</p> */}
 
-                <h2>Make your interior more minimalistic & modern </h2>
+                <h2>Mọi kiến thức cơ bản đến nâng cao cùng E-P-DUNG</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Quaerat nulla repellat quo eaque alias corposis sunt, facilis
-                  nesciunt rem fugit!
+                  Là lớp dạy tư về tiếng Anh, piano và organ, các học viên ở mọi lứa tuổi 
+                  đều có thể chọn cho mình khóa học bổ ích, hiệu quả và chất lượng, đảm bảo
+                  các điều kiện giảng dạy bài bản và mang tính thực tế cao.
                 </p>
                 {/* Tạo nút đăng kí ngay để chuyển đến trang Các khóa học */}
                 <motion.button whileTap={{ scale: 1.2 }} className="sig_btn">
@@ -79,7 +79,7 @@ const Home = () => {
               </div>
             </Col>
 
-            <Col lg="6" md="6">
+            <Col lg="5" md="5">
               <div className="hero_img">
                 <img src={heroImg} alt="" />
               </div>
@@ -95,7 +95,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h2 className="section_title">Khóa học Piano, Organ</h2>
+              <h2 className="section_title">Khóa học Organ</h2>
             </Col>
 
             <CoursesList data={trendingCourses} />
@@ -138,7 +138,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h2 className="section_title">Khóa học sắp tới</h2>
+              <h2 className="section_title">Khóa học Piano</h2>
             </Col>
 
             <CoursesList data={mobileCourses} />

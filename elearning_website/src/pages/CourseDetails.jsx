@@ -109,7 +109,7 @@ const CourseDetails = () => {
 
                 {/* Giá tiền khóa học */}
                 <div className="d-flex align-items-center gap-5">
-                  <span className="course_price">${price}</span>
+                  <span className="course_price">{price}VNĐ</span>
                   <span>Category: {category.toUpperCase()}</span>
                 </div>
 

@@ -46,7 +46,7 @@ const CourseCard = ({ item }) => {
           className="course_card-bottom 
         d-flex align-items-center justify-content-between p-2"
         >
-          <span className="price">${item.price}</span>
+          <span className="price">{item.price}VNĐ/Tháng</span>
           <motion.span whileTap={{ scale: 1.2 }} onClick={addToSaved}>
             {" "}
             {/* Tạo hiệu ứng khi ấn chuột vào nút thêm "+" */}

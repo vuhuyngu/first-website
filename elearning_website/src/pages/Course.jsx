@@ -72,11 +72,11 @@ const Course = () => {
               <div className="filter_widget">
                 <select onChange={handleFilter}>
                   <option>Filter By Category</option>
-                  <option value="sofa">Piano và Organ</option>
-                  <option value="mobile">Tiếng Anh (người lớn)</option>
-                  <option value="chair">Tiếng Anh (học sinh)</option>
+                  <option value="sofa">Tiếng Anh</option>
+                  <option value="mobile">Piano (cơ bản)</option>
+                  <option value="chair">Organ</option>
                   <option value="watch">Dịch thuật</option>
-                  <option value="wireless">Tiếng Pháp</option>
+                  <option value="wireless">Piano (tuyển tập)</option>
                 </select>
               </div>
             </Col>
@@ -99,7 +99,7 @@ const Course = () => {
                   onChange={handleSearch}
                 />
                 <span>
-                  <i class="ri-search-line"></i>
+                  <i className="ri-search-line"></i>
                 </span>
               </div>
             </Col>
